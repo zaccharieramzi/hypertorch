@@ -13,6 +13,8 @@ The code is quite simple and easy to read thanks to the following two libraries 
 import math
 import argparse
 import time
+import warnings
+warnings.filterwarnings("ignore")
 
 import numpy as np
 import torch
@@ -76,7 +78,7 @@ def main():
 
     args = parser.parse_args()
 
-    log_interval = 100
+    log_interval = 10
     eval_interval = 500
     inner_log_interval = None
     inner_log_interval_test = None
