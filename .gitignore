@@ -136,6 +136,7 @@ personal_experiments/
 .DS_Store
 
 # Data
+data/
 omniglot/
 
 # Outputs
